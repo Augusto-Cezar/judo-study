@@ -1,0 +1,36 @@
+/* === DESIGN TOKENS === */
+:root {
+  --c-bg: #080808;
+  --c-surface: #0e0e0e;
+  --c-border: rgba(255, 255, 255, 0.07);
+  --c-border-hover: rgba(255, 255, 255, 0.14);
+  --c-text: #f0ede6;
+  --c-text-secondary: #9a9a9a;
+  --c-text-muted: #555555;
+  --c-accent: #c8372d;
+  --c-accent-soft: rgba(200, 55, 45, 0.08);
+  --font-display: 'Barlow', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-ui: 'Inter', sans-serif;
+  --font-scale: 1;
+  --nav-w: 88px;
+  --transition-fast: 150ms ease;
+  --transition-base: 220ms ease;
+}
+
+[data-theme='light'] {
+  --c-bg: #f4f1ec;
+  --c-surface: #e8e4dd;
+  --c-border: rgba(0, 0, 0, 0.08);
+  --c-border-hover: rgba(0, 0, 0, 0.16);
+  --c-text: #0d0d0d;
+  --c-text-secondary: #444444;
+  --c-text-muted: #888888;
+}
+
+[data-font-size='sm'] {
+  --font-scale: 0.875;
+}
+[data-font-size='lg'] {
+  --font-scale: 1.125;
+}
