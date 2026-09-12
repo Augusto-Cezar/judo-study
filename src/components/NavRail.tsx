@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
-import logoImg from '../imports/image.png'
+import logoImg from '../imports/logo.svg'
 
 const navItems = [
   { number: '01', label: 'Início', to: '/' },
